@@ -1,0 +1,29 @@
+{
+    "name": "视频vip",
+    "main": "index1.html",
+    "description": "demo app of node-webkit",
+    "version": "0.1.0",
+    "keywords": [
+        "demo",
+        "node-webkit"
+    ],
+    "window": {
+        // "show":true,
+        // "transparent":true,
+        "title": "视频vip",
+        "icon": "img/toy.png",
+        "toolbar": true,
+        "frame": true, //显示窗口栏
+        "width": 1100,
+        "height": 600,
+        "position": "center",
+        "min_width": 800,
+        "min_height": 400,
+        // "max_width": 1100,
+        // "max_height": 600,
+        "show_in_taskbar": true //显示任务栏图标,默认true
+    },
+    "webkit": {
+        "plugin": true
+    }
+}
