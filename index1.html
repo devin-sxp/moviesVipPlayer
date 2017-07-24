@@ -41,13 +41,13 @@
             <span class="input-group-addon">选择接口</span>
             <select class="form-control input" id="i_slt" onchange="add_play()">
                     <option value="http://api.47ks.com/webcloud/?v=">优酷、乐视、搜狐、爱奇艺、腾讯...</option>
-                    <!--<option value="http://jx.71ki.com/index.php?url=">优酷、乐视、搜狐、爱奇艺</option>-->
+                    <option value="http://www.viyun.me/jiexi.php?url=">V云[腾讯]</option>
                     <option value="http://www.wmxz.wang/video.php?url=">腾讯vip接口（腾讯超清)</option>
-                    <option value="http://www.yydy8.com/Common/?url=">通用vip接口（清晰度一般）</option>
+                    <option value="http://jx.api.163ren.com/vod.php?url=">163人</option>
                     <option value="http://www.97zxkan.com/jiexi/97zxkanapi.php/?url=">通用vip接口（清晰度渣）</option>
                     <option value="http://api.xfsub.com/index.php?url=">其他vip接口一（1905优先 ）</option>
                     <option value="http://api.baiyug.cn/vip/index.php?url=">其他vip接口二</option>
-                    <!--<option value="http://q.z.vip.totv.72du.com/?url=">其他vip接口五（vip看看）</option>-->
+                    <option value="http://q.z.vip.totv.72du.com/?url=">其他vip接口五（vip看看）</option>
                 </select>
             <span class="input-group-addon">网站</span>
             <select class="form-control input" id="p_slt" onchange="slt_web()">
@@ -69,52 +69,8 @@
         <div id="mumu" class="mumu" data-vivaldi-spatnav-clickable="1" style="opacity: 1;">
         </div>
     </div>
-    <!--
-    <div class="container text-center" style="padding-top:10%;" id="wbk">
-        <form autocomplete="on">
-            <div class="input-group" style="width: 100%;">
-                <span class="input-group-addon input-lg" style="width: 80px; ">选择接口</span>
-                <select class="form-control input-lg" id="slt">
-                    <option value="http://api.47ks.com/webcloud/?v=">优酷、乐视、搜狐、爱奇艺、腾讯...</option>
-                    //<option value="http://jx.71ki.com/index.php?url=">优酷、乐视、搜狐、爱奇艺</option>
-                    <option value="http://www.wmxz.wang/video.php?url=">腾讯vip接口（腾讯超清)</option>
-                    <option value="http://www.yydy8.com/Common/?url=">通用vip接口（清晰度一般）</option>
-                    <option value="http://www.97zxkan.com/jiexi/97zxkanapi.php/?url=">通用vip接口（清晰度渣）</option>
-                    <option value="http://api.xfsub.com/index.php?url=">其他vip接口一（1905优先 ）</option>
-                    <option value="http://api.baiyug.cn/vip/index.php?url=">其他vip接口二</option>
-                    //<option value="http://q.z.vip.totv.72du.com/?url=">其他vip接口五（vip看看）</option>
-                </select>
-            </div>
-            <br>
-            <div class="input-group" style="width: 100%;">
-                <span class="input-group-addon input-lg" style="width: 80px;">播放地址</span>
-                <input class="form-control input-lg" type="search" placeholder="输入播放地址" id="video_url">
-            </div>
-            <br>
-            <div>
-                <button id="btn_play" type="button" class="btn btn-danger btn-lg btn-block">点击开始播放</button>
-            </div>
-        </form>
-    </div>
-    -->
-    <!--<div id="div_p" style="background-color:black;position:fixed;z-index:9999;width:100%;height:100%;top:0%;opacity:0.3"></div>-->
+   
 </body>
-
-<!--<script>
-    var gui = require('nw.gui');
-    var menubar = new gui.Menu({ type: 'menubar' });
-
-    menubar.append(new gui.MenuItem({
-        label: '退出',
-        click: function () {
-            window.quit()
-        }
-    }));
-
-    var win = gui.Window.get();
-    win.menu = menubar;
-
-</script>-->
 
 <script>
         var isShowWindow = true;
